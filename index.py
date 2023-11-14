@@ -14,7 +14,7 @@ GPIO.output(led, GPIO.LOW)
 GPIO.setup(pino_sensor_som, GPIO.IN)
 
 def enviar_tweet():
-    requests.post(URL_twitter, data={"api_key": "7BUK0GHQAAM4VY8X", "status": "Alerta: som detectado!"})
+    requests.post(URL_twitter, data={"api_key": "TT7OXVDYWQ8X860B", "status": "Alerta: som detectado!"})
 
 try:
     while True:
